@@ -1,0 +1,11 @@
+{
+  "name": "judicial-voice",
+  "description": "Draft or rewrite client correspondence and advice so it reads with the clarity, measured tone and disciplined vocabulary of senior Australian judges. For client letters, emails and advice memos, not for writing judgments.",
+  "version": "3.0.0",
+  "author": {
+    "name": "Jayden Leijen"
+  },
+  "skills": [
+    "./skills/judicial-voice"
+  ]
+}
