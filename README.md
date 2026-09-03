@@ -31,4 +31,4 @@ Built from a corpus of 1,504 judgments (2024-26). See the skill's own `reference
 
 ## Maintaining
 
-The skill's source of truth is the author's `~/.claude/skills/judicial-voice/`. To publish a change: copy the updated skill over `plugins/judicial-voice/skills/judicial-voice/`, bump `version` in both `plugins/judicial-voice/.claude-plugin/plugin.json` and the skill's `SKILL.md` frontmatter, commit and push. Teammates pick it up with `claude plugin update judicial-voice`.
+This repo is the source of truth. Edit the skill in place at `plugins/judicial-voice/skills/judicial-voice/` (SKILL.md, references/, scripts/). To publish a change: bump `version` in both `plugins/judicial-voice/.claude-plugin/plugin.json` and the skill's `SKILL.md` frontmatter, commit and push. Teammates (and the author) pick it up with `claude plugin update judicial-voice`. The author consumes the skill the same way everyone does, through the installed plugin, so there is no separate personal copy to keep in sync.
